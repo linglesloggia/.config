@@ -1,0 +1,35 @@
+* {
+  border: none;
+  border-radius: 0;
+  font-family: "JetBrainsMono Nerd Font", monospace;
+  font-size: 13px;
+  padding: 0 6px;
+  color: #ffffff;
+}
+
+window#waybar {
+  background: transparent;
+  color: #ffffff;
+}
+
+#workspaces button {
+  background: transparent;
+  color: #888888;
+  padding: 0 5px;
+}
+
+#workspaces button.active {
+  color: #ffffff;
+  font-weight: bold;
+}
+
+#memory, #battery, #clock, #pulseaudio, #custom-vpn {
+  background: #222;
+  margin-left: 5px;
+  border-radius: 6px;
+  padding: 0 8px;
+}
+
+#custom-vpn {
+  color: #00ff99;
+}
